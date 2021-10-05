@@ -14,6 +14,7 @@ permissions:
 
 jobs:
   build-and-push-image:
+    if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
     steps:
     - name: Log in to the Container registry
