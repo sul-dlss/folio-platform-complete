@@ -1,7 +1,11 @@
+FROM scratch
+
+LABEL org.opencontainers.image.source https://github.com/sul-dlss/folio-platform-complete
+
 FROM node:15-alpine as stripes_build
 
-ARG OKAPI_URL=http://localhost:9130
-ARG TENANT_ID=diku
+ARG OKAPI_URL=http://okapi-folio.dev.sul.stanford.edu
+ARG TENANT_ID=sul
 
 RUN mkdir -p /etc/folio/stripes
 WORKDIR /etc/folio/stripes

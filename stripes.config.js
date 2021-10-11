@@ -1,5 +1,5 @@
 module.exports = {
-  okapi: { 'url':'http://localhost:9130', 'tenant':'diku' },
+  okapi: { 'url':'http://okapi-folio.dev.sul.stanford.edu', 'tenant':'sul' },
   config: {
     logCategories: 'core,path,action,xhr',
     logPrefix: '--',
