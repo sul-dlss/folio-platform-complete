@@ -1,6 +1,3 @@
-# FROM scratch
-# LABEL org.opencontainers.image.source https://github.com/sul-dlss/folio-platform-complete
-
 FROM node:15-alpine as stripes_build
 
 ARG OKAPI_URL=http://okapi-folio.dev.sul.stanford.edu
@@ -11,8 +8,10 @@ WORKDIR /etc/folio/stripes
 
 COPY . /etc/folio/stripes/
 
-RUN apk add --no-cache alpine-sdk python2
-RUN yarn config set python /usr/bin/python2
+RUN apk add --no-cache python3
+RUN yarn config set python /usr/bin/python
+#RUN apk add --no-cache alpine-sdk python2
+#RUN yarn config set python /usr/bin/python2
 
 RUN yarn config set @folio:registry https://repository.folio.org/repository/npm-folio/
 RUN yarn install
