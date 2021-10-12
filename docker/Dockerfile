@@ -1,7 +1,7 @@
-#FROM node:15-alpine as stripes_build
+FROM node:15-alpine as stripes_build
 
-#ARG OKAPI_URL=http://okapi-folio.dev.sul.stanford.edu
-#ARG TENANT_ID=sul
+ARG OKAPI_URL=http://okapi-folio.dev.sul.stanford.edu
+ARG TENANT_ID=sul
 
 RUN mkdir -p /etc/folio/stripes
 WORKDIR /etc/folio/stripes
