@@ -2,7 +2,7 @@ name: PushImage
 
 on:
   push:
-    branches: [ master ]
+    branches: [ master, ghcr-push ]
 
 permissions:
   contents: read

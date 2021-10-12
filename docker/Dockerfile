@@ -1,6 +1,5 @@
-FROM scratch
-
-LABEL org.opencontainers.image.source https://github.com/sul-dlss/folio-platform-complete
+# FROM scratch
+# LABEL org.opencontainers.image.source https://github.com/sul-dlss/folio-platform-complete
 
 FROM node:15-alpine as stripes_build
 
