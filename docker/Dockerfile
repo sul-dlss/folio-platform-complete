@@ -6,9 +6,12 @@ ARG TENANT_ID=sul
 RUN mkdir -p /etc/folio/stripes
 WORKDIR /etc/folio/stripes
 
+RUN pwd
+
 COPY . /etc/folio/stripes/
 
 RUN apk add --no-cache alpine-sdk python2
+RUN apk add --no-cache alpine-sdk yarn
 RUN yarn config set python /usr/bin/python2
 
 RUN yarn config set @folio:registry https://repository.folio.org/repository/npm-folio/
