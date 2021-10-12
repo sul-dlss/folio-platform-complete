@@ -6,9 +6,10 @@ ARG TENANT_ID=sul
 RUN mkdir -p /etc/folio/stripes
 WORKDIR /etc/folio/stripes
 
-RUN pwd
-
 COPY . /etc/folio/stripes/
+
+RUN echo "folio-stripes:"
+RUN ls /etc/folio/stripes/
 
 RUN apk add --no-cache alpine-sdk python2
 RUN apk add --no-cache alpine-sdk yarn
