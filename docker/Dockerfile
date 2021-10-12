@@ -1,4 +1,5 @@
-FROM node:15-alpine as stripes_build
+FROM node:alpine as stripes_build
+#FROM node:15-alpine as stripes_build
 
 ARG OKAPI_URL=http://okapi-folio.dev.sul.stanford.edu
 ARG TENANT_ID=sul
