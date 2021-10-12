@@ -20,13 +20,11 @@ RUN yarn build output --okapi $OKAPI_URL --tenant $TENANT_ID
 FROM nginx:stable-alpine
 EXPOSE 80
 
-#COPY --from=stripes_build /etc/folio/stripes/output /usr/share/nginx/html
-#COPY --from=stripes_build /etc/folio/stripes/yarn.lock /usr/share/nginx/html/yarn.lock
-COPY /etc/folio/stripes/output /usr/share/nginx/html
-COPY /etc/folio/stripes/yarn.lock /usr/share/nginx/html/yarn.lock
-
 #COPY output /usr/share/nginx/html
 #COPY yarn.lock /usr/share/nginx/html/yarn.lock
+
+COPY --from=stripes_build /etc/folio/stripes/output /usr/share/nginx/html
+COPY --from=stripes_build /etc/folio/stripes/yarn.lock /usr/share/nginx/html/yarn.lock
 
 COPY docker/nginx.conf /etc/nginx/conf.d/default.conf
 COPY docker/entrypoint.sh /usr/bin/entrypoint.sh
