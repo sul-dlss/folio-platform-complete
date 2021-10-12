@@ -1,5 +1,5 @@
 module.exports = {
-  okapi: { 'url':'http://okapi-folio.dev.sul.stanford.edu', 'tenant':'sul' },
+  okapi: { 'url':'http://localhost:9130', 'tenant':'diku' },
   config: {
     logCategories: 'core,path,action,xhr',
     logPrefix: '--',
@@ -64,11 +64,11 @@ module.exports = {
   },
   branding: {
     logo: {
-      src: './tenant-assets/opentown-libraries-logo.png',
-      alt: 'Opentown Libraries',
+      src: './tenant-assets/sul-logo-stacked.svg',
+      alt: 'Stanford University Libraries',
     },
     favicon: {
-      src: './tenant-assets/opentown-libraries-favicon.png',
+      src: './tenant-assets/stanford-favicon.png',
     },
   }
 };
