@@ -1,6 +1,6 @@
 FROM node:15-alpine as stripes_build
 
-ENV OKAPI_URL=http://okapi-folio-test.dev.sul.stanford.edu
+ENV OKAPI_URL=http://okapi-folio.dev.sul.stanford.edu
 ENV TENANT_ID=sul
 
 RUN mkdir -p /etc/folio/stripes
