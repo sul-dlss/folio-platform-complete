@@ -47,7 +47,6 @@ module.exports = {
     '@folio/plugin-find-package-title': {},
     '@folio/plugin-find-po-line': {},
     '@folio/plugin-find-user' : {},
-    '@folio/plugin-find-organization': {},
     '@folio/quick-marc': {},
     '@folio/receiving' : {},
     '@folio/remote-storage' : {},
@@ -62,7 +61,7 @@ module.exports = {
   branding: {
     logo: {
       src: './tenant-assets/sul-logo-stacked.svg',
-      alt: 'Opentown Libraries',
+      alt: 'Stanford University Libraries',
     },
     favicon: {
       src: './tenant-assets/stanford-favicon.png',
