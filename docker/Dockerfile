@@ -1,6 +1,6 @@
 FROM node:15-alpine as stripes_build
 
-ARG OKAPI_URL=http://okapi-folio.dev.sul.stanford.edu
+ARG OKAPI_URL=http://okapi-folio-test.dev.sul.stanford.edu
 ARG TENANT_ID=sul
 
 RUN mkdir -p /etc/folio/stripes
@@ -17,7 +17,7 @@ RUN yarn build-module-descriptors
 RUN yarn build output --okapi $OKAPI_URL --tenant $TENANT_ID
 
 # nginx stage
-FROM nginx:alpine
+FROM nginx:stable-alpine
 EXPOSE 80
 
 COPY --from=stripes_build /etc/folio/stripes/output /usr/share/nginx/html
