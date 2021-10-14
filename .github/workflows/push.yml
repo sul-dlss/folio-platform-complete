@@ -10,10 +10,10 @@ jobs:
   build-and-push-image:
     runs-on: ubuntu-latest
     steps:
-    - name: Extract branch name
-      shell: bash
-      run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})"
-      id: extract_branch
+    # - name: Extract branch name
+    #   shell: bash
+    #   run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})"
+    #   id: extract_branch
 
     - name: Set up Docker Buildx
       id: buildx
@@ -36,5 +36,5 @@ jobs:
       uses: docker/build-push-action@v2
       with:
         push: true
-        tags: ghcr.io/sul-dlss/folio-platform-complete:test
+        tags: ghcr.io/sul-dlss/folio-platform-complete:${{ github.ref }}
         file: ./docker/Dockerfile
