@@ -2,7 +2,7 @@ name: PushImage
 
 on:
   push:
-    branches: [ master, R1-2021 ]
+    branches: ${{ GITHUB_REF#refs/heads/ }}
 
 permissions:
   contents: read
@@ -34,7 +34,7 @@ jobs:
       uses: docker/build-push-action@v2
       with:
         push: true
-        tags: ghcr.io/sul-dlss/folio-platform-complete:latest
+        tags: ghcr.io/sul-dlss/folio-platform-complete:${{ GITHUB_REF#refs/heads/ }}
         file: ./docker/Dockerfile
 
     - name: Image digest
