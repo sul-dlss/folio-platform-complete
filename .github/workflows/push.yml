@@ -28,11 +28,16 @@ jobs:
         username: ${{ github.repository_owner }}
         password: ${{ secrets.GITHUB_TOKEN }}
 
+    - name: Extract branch name
+      shell: bash
+      run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})"
+      id: current_branch
+
     - name: Build image and push to Docker Hub and GitHub Container Registry
       uses: docker/build-push-action@v2
       with:
         push: true
-        tags: ghcr.io/sul-dlss/folio-platform-complete:${GITHUB_REF##*/}
+        tags: ghcr.io/sul-dlss/folio-platform-complete:${{ steps.extract_branch.outputs.branch }}
         file: ./docker/Dockerfile
 
     - name: Image digest
