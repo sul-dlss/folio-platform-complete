@@ -2,7 +2,7 @@ name: PushImage
 
 on:
   push:
-    branches: ${{ GITHUB_REF#refs/heads/ }}
+    branches: [ ${{ github.ref }} ]
 
 permissions:
   contents: read
