@@ -17,7 +17,7 @@ RUN yarn config set python /usr/bin/python3
 RUN yarn config set @folio:registry https://repository.folio.org/repository/npm-folio/
 RUN yarn install
 RUN yarn build-module-descriptors
-ARG OKAPI_URL=https://okapi-dev.stanford.edu
+ARG OKAPI_URL=https://okapi-test.stanford.edu
 ARG TENANT_ID=sul
 RUN yarn build output --okapi $OKAPI_URL --tenant $TENANT_ID
 
