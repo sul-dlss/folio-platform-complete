@@ -4,7 +4,9 @@ module.exports = {
     logCategories: 'core,path,action,xhr',
     logPrefix: '--',
     maxUnpagedResourceCount: 2000,
-    showPerms: false
+    showPerms: false,
+    welcomeMessage: 'FOLIO Development Instance',
+    platformName: 'FOLIO - Dev',
   },
   modules: {
     '@folio/acquisition-units': {},
@@ -68,11 +70,11 @@ module.exports = {
   },
   branding: {
     logo: {
-      src: './tenant-assets/opentown-libraries-logo.png',
-      alt: 'Opentown Libraries',
+      src: './tenant-assets/sul-logo-stacked.png',
+      alt: 'Stanford University Libraries',
     },
     favicon: {
-      src: './tenant-assets/opentown-libraries-favicon.png',
+      src: './tenant-assets/stanford-favicon.png',
     },
   }
 };
