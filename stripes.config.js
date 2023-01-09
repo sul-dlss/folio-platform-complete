@@ -5,8 +5,8 @@ module.exports = {
     logPrefix: '--',
     maxUnpagedResourceCount: 2000,
     showPerms: false,
-    welcomeMessage: 'FOLIO Development Instance',
-    platformName: 'FOLIO - Dev',
+    welcomeMessage: 'FOLIO Test Instance',
+    platformName: 'FOLIO - Test',
   },
   modules: {
     '@folio/acquisition-units': {},
