@@ -5,8 +5,8 @@ module.exports = {
     logPrefix: '--',
     maxUnpagedResourceCount: 2000,
     showPerms: false,
-    welcomeMessage: 'FOLIO Test Instance',
-    platformName: 'FOLIO - Test',
+    welcomeMessage: 'FOLIO - Stanford University Libraries',
+    platformName: 'FOLIO - Stanford University Libraries',
   },
   modules: {
     '@folio/acquisition-units': {},
