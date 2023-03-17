@@ -88,11 +88,7 @@
     "action": "enable"
   },
   {
-    "id": "folio_ldp-1.9.0",
-    "action": "enable"
-  },
-  {
-    "id": "folio_licenses-8.3.2",
+    "id": "folio_licenses-8.3.1",
     "action": "enable"
   },
   {
