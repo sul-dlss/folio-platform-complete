@@ -236,10 +236,6 @@
     "action": "enable"
   },
   {
-    "id": "mod-ldp-1.0.8",
-    "action": "enable"
-  },
-  {
     "id": "mod-kb-ebsco-java-3.12.2",
     "action": "enable"
   },
