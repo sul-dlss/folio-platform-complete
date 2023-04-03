@@ -353,7 +353,7 @@
   "id" : "edge-sip2-2.4.0",
   "action" : "enable"
 }, {
-  "id" : "mod-z3950-3.1.0",
+  "id" : "mod-z3950-3.2.0",
   "action" : "enable"
 }, {
   "id" : "mod-data-export-4.6.1",
