@@ -16,11 +16,7 @@ RUN yarn config set python /usr/bin/python3
 
 RUN yarn config set @folio:registry https://repository.folio.org/repository/npm-folio/
 RUN yarn install
-
-COPY ./tenant-assets/custom-css/Pane.css node_modules/@folio/stripes-components/lib/Pane
-
 RUN yarn build-module-descriptors
-
 ARG OKAPI_URL=https://okapi-dev.stanford.edu
 ARG TENANT_ID=sul
 
