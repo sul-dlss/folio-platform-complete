@@ -5,7 +5,7 @@
   --main-nav-min-height-mobile: 48px;
   --main-nav-border-bottom-color: rgba(0, 0, 0, 0.9);
   --main-nav-background-color: rgba(0, 255, 242, 0.8);
-  --main-nav-text-color: #fff;
+  --main-nav-text-color: #000000;
 }
 
 .navRoot {
