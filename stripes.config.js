@@ -6,7 +6,7 @@ module.exports = {
     maxUnpagedResourceCount: 2000,
     showPerms: false,
     welcomeMessage: 'FOLIO STAGE - Stanford University Libraries',
-    platformName: 'FOLIO STAGE - Stanford University Libraries',
+    platformName: 'FOLIO - Stage',
   },
   modules: {
     '@folio/acquisition-units': {},
