@@ -19,7 +19,6 @@ RUN yarn install
 RUN yarn build-module-descriptors
 
 COPY tenant-assets/MainNav.css node_modules/@folio/stripes-core/src/components/MainNav
-COPY tenant-assets/NavButton.css node_modules/@folio/stripes-core/src/components/MainNav/NavButton/NavButton.css
 COPY tenant-assets/Pane.css node_modules/@folio/stripes-components/lib/Pane
 
 ARG OKAPI_URL=https://okapi-stage.stanford.edu
