@@ -22,7 +22,7 @@ COPY tenant-assets/MainNav.css node_modules/@folio/stripes-core/src/components/M
 COPY tenant-assets/NavButton.css node_modules/@folio/stripes-core/src/components/MainNav/NavButton/NavButton.css
 COPY tenant-assets/Pane.css node_modules/@folio/stripes-components/lib/Pane
 
-ARG OKAPI_URL=https://okapi-stage.stanford.edu
+ARG OKAPI_URL=https://okapi-test.stanford.edu
 ARG TENANT_ID=sul
 
 RUN yarn build output --okapi $OKAPI_URL --tenant $TENANT_ID
