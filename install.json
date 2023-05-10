@@ -272,9 +272,6 @@
   "id" : "edge-dematic-1.7.0",
   "action" : "enable"
 }, {
-  "id" : "edge-caiasoft-1.4.0",
-  "action" : "enable"
-}, {
   "id" : "mod-orders-12.5.4",
   "action" : "enable"
 }, {

@@ -252,10 +252,6 @@
     "action": "enable"
   },
   {
-    "id": "edge-caiasoft-1.4.0",
-    "action": "enable"
-  },
-  {
     "id": "edge-orders-2.7.0",
     "action": "enable"
   },
