@@ -3,27 +3,27 @@
     "id": "edge-connexion-1.0.6",
     "action": "enable"
   },
-    {
+  {
     "id": "edge-oai-pmh-2.5.1",
     "action": "enable"
   },
-    {
+  {
     "id": "edge-sip2-2.4.0",
     "action": "enable"
   },
-    {
+  {
     "id": "mod-inventory-update-2.3.1",
     "action": "enable"
   },
-    {
+  {
     "id": "mod-graphql-1.10.2",
     "action": "enable"
   },
-    {
+  {
     "id": "mod-z3950-3.2.0",
     "action": "enable"
   },
-    {
+  {
     "id": "mod-licenses-4.2.1",
     "action": "enable"
   },
@@ -156,11 +156,7 @@
     "action": "enable"
   },
   {
-    "id": "edge-caiasoft-1.4.0",
-    "action": "enable"
-  },
-  {
-    "id": "mod-data-export-spring-1.5.4",
+    "id": "mod-data-export-spring-1.5.3",
     "action": "enable"
   },
   {
