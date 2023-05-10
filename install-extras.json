@@ -156,10 +156,6 @@
     "action": "enable"
   },
   {
-    "id": "edge-caiasoft-1.4.0",
-    "action": "enable"
-  },
-  {
     "id": "mod-data-export-spring-1.5.3",
     "action": "enable"
   },
