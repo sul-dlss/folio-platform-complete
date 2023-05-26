@@ -5,8 +5,8 @@ module.exports = {
     logPrefix: '--',
     maxUnpagedResourceCount: 2000,
     showPerms: false,
-    welcomeMessage: 'FOLIO STAGE - Stanford University Libraries',
-    platformName: 'FOLIO - Stage',
+    welcomeMessage: 'FOLIO - Stanford University',
+    platformName: 'FOLIO',
   },
   modules: {
     '@folio/acquisition-units': {},
@@ -69,8 +69,8 @@ module.exports = {
   },
   branding: {
     logo: {
-      src: './tenant-assets/sul-logo-stacked.png',
-      alt: 'Stanford University Libraries',
+      src: 'tenant-assets/SUSig_2color_Stree_StnfrdOnly_Left.png',
+      alt: 'Stanford University',
     },
     favicon: {
       src: './tenant-assets/stanford-favicon.png',
