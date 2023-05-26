@@ -18,10 +18,9 @@ RUN yarn config set @folio:registry https://repository.folio.org/repository/npm-
 RUN yarn install
 RUN yarn build-module-descriptors
 
-COPY tenant-assets/MainNav.css node_modules/@folio/stripes-core/src/components/MainNav
 COPY tenant-assets/Pane.css node_modules/@folio/stripes-components/lib/Pane
 
-ARG OKAPI_URL=https://okapi-stage.stanford.edu
+ARG OKAPI_URL=https://okapi-prod.stanford.edu
 ARG TENANT_ID=sul
 
 RUN yarn build output --okapi $OKAPI_URL --tenant $TENANT_ID
