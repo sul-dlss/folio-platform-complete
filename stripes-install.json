@@ -260,7 +260,7 @@
     "action": "enable"
   },
   {
-    "id": "edge-sip2-2.4.0",
+    "id": "edge-sip2-3.0.1",
     "action": "enable"
   }
 ]
