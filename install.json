@@ -44,7 +44,7 @@
   "id" : "mod-event-config-2.4.0",
   "action" : "enable"
 }, {
-  "id" : "mod-users-19.0.0",
+  "id" : "mod-users-19.1.1",
   "action" : "enable"
 }, {
   "id" : "mod-source-record-storage-5.5.4",
@@ -347,7 +347,7 @@
   "id" : "folio_stripes-authority-components-1.0.2",
   "action" : "enable"
 }, {
-  "id" : "edge-sip2-3.0.1",
+  "id" : "edge-sip2-2.4.0",
   "action" : "enable"
 }, {
   "id" : "mod-z3950-3.2.0",
