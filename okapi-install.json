@@ -188,10 +188,6 @@
     "action": "enable"
   },
   {
-    "id": "mod-remote-storage-1.7.1",
-    "action": "enable"
-  },
-  {
     "id": "mod-orders-12.5.4",
     "action": "enable"
   },
