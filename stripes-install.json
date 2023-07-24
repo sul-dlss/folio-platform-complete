@@ -196,10 +196,6 @@
     "action": "enable"
   },
   {
-    "id": "folio_remote-storage-3.3.2",
-    "action": "enable"
-  },
-  {
     "id": "folio_requests-7.2.4",
     "action": "enable"
   },
