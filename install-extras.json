@@ -164,10 +164,6 @@
     "action": "enable"
   },
   {
-    "id": "mod-remote-storage-1.7.2",
-    "action": "enable"
-  },
-  {
     "id": "mod-oai-pmh-3.10.0",
     "action": "enable"
   },
