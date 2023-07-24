@@ -63,7 +63,6 @@
     "@folio/plugin-find-user": "6.3.0",
     "@folio/quick-marc": "5.2.0",
     "@folio/receiving": "2.3.1",
-    "@folio/remote-storage": "3.3.2",
     "@folio/requests": "7.2.4",
     "@folio/servicepoints": "6.2.0",
     "@folio/stripes": "7.3.6",
