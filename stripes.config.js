@@ -58,7 +58,6 @@ module.exports = {
     '@folio/plugin-find-user' : {},
     '@folio/quick-marc': {},
     '@folio/receiving' : {},
-    '@folio/remote-storage' : {},
     '@folio/requests' : {},
     '@folio/servicepoints' : {},
     '@folio/stripes-authority-components' : {},
