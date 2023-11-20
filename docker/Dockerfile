@@ -34,8 +34,8 @@ RUN apk upgrade --no-cache
 
 EXPOSE 80
 
-COPY /etc/folio/stripes/tenant-assets/403.html /usr/share/nginx/html/403.html
-COPY /etc/folio/stripes/tenant-assets/SUSig_2color_Stree_StnfrdOnly_Left.png /usr/share/nginx/html/SULogo.png
+COPY --from=stripes_build /etc/folio/stripes/tenant-assets/403.html /usr/share/nginx/html/403.html
+COPY --from=stripes_build /etc/folio/stripes/tenant-assets/SUSig_2color_Stree_StnfrdOnly_Left.png /usr/share/nginx/html/SULogo.png
 COPY --from=stripes_build /etc/folio/stripes/output /usr/share/nginx/html
 COPY --from=stripes_build /etc/folio/stripes/yarn.lock /usr/share/nginx/html/yarn.lock
 COPY docker/nginx.conf /etc/nginx/conf.d/default.conf
