@@ -21,6 +21,9 @@ RUN yarn build-module-descriptors
 COPY tenant-assets/MainNav.css node_modules/@folio/stripes-core/src/components/MainNav
 COPY tenant-assets/Pane.css node_modules/@folio/stripes-components/lib/Pane
 
+COPY tenant-assets/403.html /usr/share/nginx/html/403.html
+COPY tenant-assets/SUSig_2color_Stree_StnfrdOnly_Left.png /usr/share/nginx/html/SULogo.png
+
 ARG OKAPI_URL=https://okapi-dev.stanford.edu
 ARG TENANT_ID=sul
 
