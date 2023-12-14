@@ -7,6 +7,7 @@ module.exports = {
     showPerms: false,
     welcomeMessage: 'FOLIO TEST - Stanford University',
     platformName: 'FOLIO - Test',
+    helpUrl: 'https://sites.google.com/stanford.edu/folio-training-central/help',
   },
   modules: {
     '@folio/acquisition-units': {},
