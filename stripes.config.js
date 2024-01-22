@@ -4,6 +4,10 @@ module.exports = {
     logCategories: 'core,path,action,xhr',
     logPrefix: '--',
     maxUnpagedResourceCount: 2000,
+    showPerms: false,
+    welcomeMessage: 'FOLIO DEV - Stanford University',
+    platformName: 'FOLIO - Dev',
+    helpUrl: 'https://sites.google.com/stanford.edu/folio-training-central/help',
     showPerms: false
   },
   modules: {
@@ -29,7 +33,6 @@ module.exports = {
     '@folio/handler-stripes-registry': {},
     '@folio/inventory' : {},
     '@folio/invoice': {},
-    '@folio/ldp': {},
     '@folio/licenses': {},
     '@folio/lists': {},
     '@folio/local-kb-admin': {},
@@ -59,7 +62,6 @@ module.exports = {
     '@folio/plugin-query-builder' : {},
     '@folio/quick-marc': {},
     '@folio/receiving' : {},
-    '@folio/remote-storage' : {},
     '@folio/requests' : {},
     '@folio/servicepoints' : {},
     "@folio/service-interaction": {},
