@@ -8,7 +8,6 @@ module.exports = {
     welcomeMessage: 'FOLIO DEV - Stanford University',
     platformName: 'FOLIO - Dev',
     helpUrl: 'https://sites.google.com/stanford.edu/folio-training-central/help',
-    showPerms: false
   },
   modules: {
     '@folio/acquisition-units': {},
