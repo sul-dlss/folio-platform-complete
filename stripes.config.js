@@ -60,7 +60,6 @@ module.exports = {
     '@folio/plugin-query-builder' : {},
     '@folio/quick-marc': {},
     '@folio/receiving' : {},
-    '@folio/remote-storage' : {},
     '@folio/requests' : {},
     '@folio/servicepoints' : {},
     "@folio/service-interaction": {},
