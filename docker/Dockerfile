@@ -14,6 +14,10 @@ RUN yarn config set python /usr/bin/python2
 RUN yarn config set @folio:registry https://repository.folio.org/repository/npm-folio/
 RUN yarn install
 RUN yarn build-module-descriptors
+
+COPY tenant-assets/MainNav.css node_modules/@folio/stripes-core/src/components/MainNav
+COPY tenant-assets/Pane.css node_modules/@folio/stripes-components/lib/Pane
+
 RUN yarn build output --okapi $OKAPI_URL --tenant $TENANT_ID
 
 # nginx stage
