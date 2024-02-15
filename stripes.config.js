@@ -4,6 +4,8 @@ module.exports = {
     logCategories: 'core,path,action,xhr',
     logPrefix: '--',
     maxUnpagedResourceCount: 2000,
+    welcomeMessage: 'FOLIO - Stanford University',
+    platformName: 'FOLIO',
     helpUrl: 'https://sites.google.com/stanford.edu/folio-training-central/help',
     showPerms: false
   },
