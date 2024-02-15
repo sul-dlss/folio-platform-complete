@@ -71,11 +71,11 @@ module.exports = {
   },
   branding: {
     logo: {
-      src: './tenant-assets/opentown-libraries-logo.png',
-      alt: 'Opentown Libraries',
+      src: './tenant-assets/SUSig_2color_Stree_StnfrdOnly_Left.png',
+      alt: 'Stanford University',
     },
     favicon: {
-      src: './tenant-assets/opentown-libraries-favicon.png',
+      src: './tenant-assets/stanford-favicon.png',
     },
   }
 };
