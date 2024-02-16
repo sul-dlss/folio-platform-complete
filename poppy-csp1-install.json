@@ -41,9 +41,6 @@
   "id" : "folio_plugin-find-license-10.0.0",
   "action" : "enable"
 }, {
-  "id" : "okapi-5.1.2",
-  "action" : "enable"
-}, {
   "id" : "mod-event-config-2.6.0",
   "action" : "enable"
 }, {
@@ -215,9 +212,6 @@
   "id" : "mod-copycat-1.5.0",
   "action" : "enable"
 }, {
-  "id" : "edge-connexion-1.1.1",
-  "action" : "enable"
-}, {
   "id" : "mod-courses-1.4.8",
   "action" : "enable"
 }, {
@@ -311,16 +305,10 @@
   "id" : "folio_users-10.0.5",
   "action" : "enable"
 }, {
-  "id" : "edge-sip2-3.1.1",
-  "action" : "enable"
-}, {
   "id" : "mod-patron-6.0.0",
   "action" : "enable"
 }, {
   "id" : "mod-ncip-1.14.4",
-  "action" : "enable"
-}, {
-  "id" : "edge-ncip-1.9.2",
   "action" : "enable"
 }, {
   "id" : "mod-orders-12.7.1",
