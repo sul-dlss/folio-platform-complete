@@ -23,7 +23,6 @@ module.exports = {
     '@folio/data-export' : {},
     '@folio/data-import' : {},
     '@folio/developer' : {},
-    '@folio/eholdings' : {},
     '@folio/erm-comparisons' : {},
     '@folio/erm-usage': {},
     '@folio/export-manager': {},
