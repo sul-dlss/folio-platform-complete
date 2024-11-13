@@ -4,6 +4,9 @@ module.exports = {
     logCategories: 'core,path,action,xhr',
     logPrefix: '--',
     maxUnpagedResourceCount: 2000,
+    welcomeMessage: 'FOLIO TEST Quesnelia - Stanford University',
+    platformName: 'FOLIO Test Quesnelia CSP 6',
+    helpUrl: 'https://sites.google.com/stanford.edu/folio-training-central/help',
     showPerms: false,
     preserveConsole: true,
     useSecureTokens: true,
@@ -60,7 +63,6 @@ module.exports = {
     '@folio/plugin-query-builder' : {},
     '@folio/quick-marc': {},
     '@folio/receiving' : {},
-    '@folio/remote-storage' : {},
     '@folio/requests' : {},
     '@folio/servicepoints' : {},
     '@folio/service-interaction': {},
@@ -75,11 +77,11 @@ module.exports = {
   },
   branding: {
     logo: {
-      src: './tenant-assets/opentown-libraries-logo.png',
-      alt: 'Opentown Libraries',
+      src: './tenant-assets/SUSig_2color_Stree_StnfrdOnly_Left.png',
+      alt: 'Stanford University',
     },
     favicon: {
-      src: './tenant-assets/opentown-libraries-favicon.png',
+      src: './tenant-assets/stanford-favicon.png',
     },
   }
 };
