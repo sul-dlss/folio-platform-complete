@@ -9,7 +9,7 @@ module.exports = {
     helpUrl: 'https://sites.google.com/stanford.edu/folio-training-central/help',
     showPerms: false,
     preserveConsole: true,
-    useSecureTokens: false,
+    useSecureTokens: true,
   },
   modules: {
     '@folio/acquisition-units': {},
