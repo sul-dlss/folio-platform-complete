@@ -5,7 +5,7 @@ module.exports = {
     logPrefix: '--',
     maxUnpagedResourceCount: 2000,
     welcomeMessage: 'FOLIO DEV Quesnelia - Stanford University',
-    platformName: 'FOLIO Dev - Quesnelia',
+    platformName: 'FOLIO Dev - Quesnelia CSP 8',
     helpUrl: 'https://sites.google.com/stanford.edu/folio-training-central/help',
     showPerms: false,
     preserveConsole: true,
