@@ -1,15 +1,24 @@
 module.exports = {
-  okapi: { 'url':'http://localhost:9130', 'tenant':'diku' },
+  okapi: {
+    'url': 'https://kong-folio-dev.stanford.edu',
+    'uiUrl': 'https://folio-dev.stanford.edu',
+    'authnUrl': 'https://keycloak-folio-dev.stanford.edu'
+  },
   config: {
+    hasAllPerms: true,
+    useSecureTokens: true,
     logCategories: 'core,path,action,xhr',
     logPrefix: '--',
     maxUnpagedResourceCount: 2000,
-    welcomeMessage: 'FOLIO DEV Ramsons CSP 6 - Stanford University',
-    platformName: 'FOLIO Dev Ramsons CSP 6',
-    helpUrl: 'https://sites.google.com/stanford.edu/folio-training-central/help',
-    showPerms: false,
-    preserveConsole: true,
-    useSecureTokens: true,
+    showPerms: true,
+    isSingleTenant: true,
+    isEureka: true,
+    tenantOptions: {sul: {name: "sul", clientId: "sul-application"}},
+    enableEcsRequests: false,
+    rtr: {
+      idleSessionTTL: '1h',
+      idleModalTTL: '30s',
+    }
   },
   modules: {
     '@folio/acquisition-units': {},
