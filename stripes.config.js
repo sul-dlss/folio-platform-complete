@@ -59,6 +59,8 @@ module.exports = {
 
     // settings-only apps, plugins, etc
     // always listed alphabetically, if at all
+    '@folio/authorization-roles': {},
+    '@folio/authorization-policies': {},
     '@folio/acquisition-units': {},
     '@folio/calendar' : {},
     '@folio/circulation' : {},

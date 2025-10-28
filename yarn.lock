@@ -1996,7 +1996,7 @@
     prop-types "^15.5.10"
     react-query "^3.6.0"
 
-"@folio/plugin-select-application@>=1.0.0", "@folio/plugin-select-application@^2.0.0":
+"@folio/plugin-select-application@^2.0.0":
   version "2.0.0"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/plugin-select-application/-/plugin-select-application-2.0.0.tgz#58a83bf8d165a4d5206801f6520d6acce9c86c6e"
   integrity sha512-QFOhhX3qcjdFqKUvSbL9P8sWVihnSw+W0FrT5ao5jfoDrOTjowh9hr3J3BHmVgwi/eK1/ceomddj7ovfCywZ1w==
