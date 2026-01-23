@@ -19,7 +19,7 @@ module.exports = {
     enableEcsRequests: false,
     preserveConsole: true,
     useSecureTokens: true,
-    hasAllPerms: false,
+    hasAllPerms: true,
     aboutInstallDate: "2026-1-23",
     aboutInstallMessage: "Eureka Test Ramsons CSP 8",
     rtr: {
