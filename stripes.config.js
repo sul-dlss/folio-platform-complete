@@ -33,6 +33,9 @@ module.exports = {
 
   modules: {
     // user-visible apps
+    '@folio/authorization-roles': {},
+    '@folio/authorization-policies': {},
+    '@folio/plugin-select-application' : {},
     '@folio/agreements' : {},
     '@folio/bulk-edit': {},
     '@folio/checkin' : {},

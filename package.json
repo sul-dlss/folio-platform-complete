@@ -10,6 +10,9 @@
     "test": "echo 'No unit tests implemented'"
   },
   "dependencies": {
+    "@folio/authorization-roles": ">=1.0.0",
+    "@folio/authorization-policies": ">=1.0.0",
+    "@folio/plugin-select-application": ">=1.0.0",
     "@folio/acquisition-units": ">=1.0.0",
     "@folio/agreements": ">=2.0.0",
     "@folio/bulk-edit": ">=1.0.0",
