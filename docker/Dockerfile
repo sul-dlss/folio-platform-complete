@@ -37,7 +37,7 @@ COPY --from=stripes_build /etc/folio/stripes/output /usr/share/nginx/html
 COPY --from=stripes_build /etc/folio/stripes/yarn.lock /usr/share/nginx/html/yarn.lock
 COPY docker/nginx.conf /etc/nginx/conf.d/default.conf
 COPY docker/entrypoint.sh /usr/bin/entrypoint.sh
-RUN mkdir /sul
-COPY tenant-assets/logo.png /sul/logo.png
+RUN mkdir /usr/share/nginx/html/sul
+COPY tenant-assets/logo.png /usr/share/nginx/html/sul/logo.png
 
 ENTRYPOINT ["/usr/bin/entrypoint.sh"]
