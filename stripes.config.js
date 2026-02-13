@@ -102,7 +102,7 @@ module.exports = {
   },
   branding: {
     logo: {
-      src: './tenant-assets/SUSig_2color_Stree_StnfrdOnly_Left.png',
+      src: './tenant-assets/logo.png',
       alt: 'Stanford University',
     },
     favicon: {
