@@ -20,7 +20,6 @@ RUN yarn build-module-descriptors
 
 COPY tenant-assets/MainNav.css node_modules/@folio/stripes-core/src/components/MainNav
 COPY tenant-assets/Pane.css node_modules/@folio/stripes-components/lib/Pane
-COPY tenant-assets/logo.png /opt/logo.png
 
 ARG OKAPI_URL=https://folio-test-api.stanford.edu
 ARG TENANT_ID=sul
@@ -38,5 +37,7 @@ COPY --from=stripes_build /etc/folio/stripes/output /usr/share/nginx/html
 COPY --from=stripes_build /etc/folio/stripes/yarn.lock /usr/share/nginx/html/yarn.lock
 COPY docker/nginx.conf /etc/nginx/conf.d/default.conf
 COPY docker/entrypoint.sh /usr/bin/entrypoint.sh
+RUN mkdir /sul
+COPY tenant-assets/logo.png /sul/logo.png
 
 ENTRYPOINT ["/usr/bin/entrypoint.sh"]
