@@ -20,7 +20,7 @@ RUN yarn build-module-descriptors
 
 COPY tenant-assets/MainNav.css node_modules/@folio/stripes-core/src/components/MainNav
 COPY tenant-assets/Pane.css node_modules/@folio/stripes-components/lib/Pane
-COPY tenant-assets/logo.png /usr/share/nginx/html/assets/logo.png
+COPY tenant-assets/logo.png /usr/share/nginx/html/logo.png
 
 ARG OKAPI_URL=https://folio-test-api.stanford.edu
 ARG TENANT_ID=sul
