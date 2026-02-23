@@ -1,8 +1,8 @@
 module.exports = {
   okapi: {
-    'url': 'https://kong-folio-dev.stanford.edu',
+    'url': 'https://kong-folio-dev.stanford.edu:8443',
     'uiUrl': 'https://folio-dev.stanford.edu:8443',
-    'authnUrl': 'https://keycloak-folio-dev.stanford.edu'
+    'authnUrl': 'https://keycloak-folio-dev.stanford.edu:8443'
   },
   config: {
     hasAllPerms: true,
