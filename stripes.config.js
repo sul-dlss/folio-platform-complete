@@ -1,6 +1,6 @@
 module.exports = {
   okapi: {
-    'url': 'https://kong-folio-dev.stanford.edu',
+    'url': 'https://folio-dev-api.stanford.edu',
     'uiUrl': 'https://folio-dev.stanford.edu',
     'authnUrl': 'https://keycloak-folio-dev.stanford.edu'
   },
