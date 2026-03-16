@@ -1,17 +1,17 @@
 module.exports = {
   okapi: {
     // application gateway
-    'url': 'http://folio-stage-api.stanford.edu:8443',
-    'uiUrl': 'https://folio-stage.stanford.edu:8443',
-    'authnUrl': 'https://keycloak-folio-stage.stanford.edu:8443',
+    'url': 'http://folio-prod-api.stanford.edu',
+    'uiUrl': 'https://folio-prod.stanford.edu',
+    'authnUrl': 'https://keycloak-folio-prod.stanford.edu',
   },
   config: {
     logCategories: 'core,path,action,xhr',
     logPrefix: '--',
     maxUnpagedResourceCount: 2000,
     idleSessionWarningSeconds: 60,
-    welcomeMessage: 'FOLIO STAGE Sunflower CSP 4 - Stanford University',
-    platformName: 'FOLIO STAGE Sunflower CSP 4',
+    welcomeMessage: 'FOLIO PROD Sunflower CSP 4 - Stanford University',
+    platformName: 'FOLIO PROD Sunflower CSP 4',
     helpUrl: 'https://sites.google.com/stanford.edu/folio-training-central/help',
     showPerms: false,
     isSingleTenant: true,
@@ -20,8 +20,8 @@ module.exports = {
     preserveConsole: true,
     useSecureTokens: true,
     hasAllPerms: false,
-    aboutInstallDate: "2026-1-23",
-    aboutInstallMessage: "Eureka Stage Sunflower CSP 4",
+    aboutInstallDate: "2026-3-21",
+    aboutInstallMessage: "Eureka Prod Sunflower CSP 4",
     rtr: {
       idleSessionTTL: '1h',
       idleModalTTL: '30s',

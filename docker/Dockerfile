@@ -21,7 +21,7 @@ RUN yarn build-module-descriptors
 COPY tenant-assets/MainNav.css node_modules/@folio/stripes-core/src/components/MainNav
 COPY tenant-assets/Pane.css node_modules/@folio/stripes-components/lib/Pane
 
-ARG OKAPI_URL=https://folio-stage-api.stanford.edu:8443
+ARG OKAPI_URL=https://folio-prod-api.stanford.edu:8443
 ARG TENANT_ID=sul
 RUN yarn build output --okapi $OKAPI_URL --tenant $TENANT_ID
 
