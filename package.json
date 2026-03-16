@@ -99,8 +99,7 @@
     "@folio/authorization-policies": "2.0.0",
     "@folio/authorization-roles": "2.0.3",
     "@folio/plugin-select-application": "2.0.0",
-    "@folio/inn-reach": "6.0.2",
-    "@folio/mosaic-settings": "1.0.0"
+    "@folio/inn-reach": "6.0.2"
   },
   "resolutions":   {
     "@babel/helpers": "^7.0.0",
