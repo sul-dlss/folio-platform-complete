@@ -1,9 +1,9 @@
 module.exports = {
   okapi: {
     // application gateway
-    'url': 'http://folio-stage-api.stanford.edu:8443',
-    'uiUrl': 'https://folio-stage.stanford.edu:8443',
-    'authnUrl': 'https://keycloak-folio-stage.stanford.edu:8443',
+    'url': 'http://folio-stage-api.stanford.edu',
+    'uiUrl': 'https://folio-stage.stanford.edu',
+    'authnUrl': 'https://keycloak-folio-stage.stanford.edu',
   },
   config: {
     logCategories: 'core,path,action,xhr',
